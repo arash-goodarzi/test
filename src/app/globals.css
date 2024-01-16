@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title-head{
+        @apply md:text-xl text-base font-bold shadow shadow-black px-2 bg-gray-600 text-white  border-b-2 border-neutral mb-3 hover:scale-105 transition ease-in
+    }
+
+    .title-subject {
+        @apply items-center mb-2 text-black bg-primaryPale px-2 rounded-sm block text-sm md:text-lg lg:text-xl hover:scale-105 transition ease-in hover:border-2 border-gray-600 shadow-lg
+    }
+
+    .title-detail {
+        @apply lg:text-lg md:text-base text-xs text-black font-bold
+    }
+
+    .title-head-main {
+        @apply md:text-2xl text-base font-bold border-b-2 border-neutral mb-3
+    }
+
+    .title-subject-main {
+        @apply md:text-xl text-sm font-bold bg-primaryStrong px-2 rounded-sm shadow shadow-black 
+    }
+
+
+
+    .icon-style {
+        @apply bottom-4 rounded border border-neutral group-hover:flex w-20 h-20 mx-4 my-4 hidden bg-white transition ease-in
+    }
+}
